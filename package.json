@@ -1,0 +1,26 @@
+{
+  "name": "hexlab-template",
+  "version": "0.0.0",
+  "description": "",
+  "scripts": {
+    "start": "vite",
+    "dev": "vite",
+    "build": "vite build",
+    "serve": "vite preview"
+  },
+  "license": "0BSD",
+  "devDependencies": {
+    "@unocss/preset-rem-to-px": "^0.51.8",
+    "typescript": "^4.9.5",
+    "unocss": "^0.51.8",
+    "vite": "^4.3.1",
+    "vite-plugin-solid": "^2.5.0"
+  },
+  "dependencies": {
+    "@unocss/reset": "^0.51.8",
+    "@zag-js/pressable": "^0.6.0",
+    "@zag-js/solid": "^0.5.0",
+    "solid-js": "^1.6.10",
+    "solid-slider": "^1.3.12"
+  }
+}
