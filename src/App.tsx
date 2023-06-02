@@ -144,7 +144,7 @@ const App: Component = () => {
       </section>
       <section class="flex py-64 px-16 justify-center items-center lg:py-80">
         <div class='grid grid-cols-1 lg:grid-cols-2 gap-x-40 gap-y-20'>
-          <img src="/assets/example.png" alt="example" class="h-400 w-400 rounded-full object-scale-down mx-auto" />
+          <img src="/assets/bjorn.jpg" alt="bjorn" class="h-400 w-400 rounded-full object-scale-down mx-auto" />
           <div class='flex items-center justify-center'>
             <div class="flex flex-col gap-20 items-center justify-center text-center lg:justify-start lg:items-start lg:text-start max-w-508">
               <div class="h-88 w-88 flex justify-center items-center">
