@@ -162,7 +162,7 @@ const App: Component = () => {
                 </p>
               </div>
               <p class="hex-type-body color-gray-dark">
-                From eCommerce agencies to crypto startups, there is nothing Bjorn can't automate away. In his sales experience, he always gets a knack out of making his coworkers' jobs easier.
+                From eCommerce agencies to crypto startups, there is nothing Bjorn can't automate away. He always gets a kick out of making his clients' jobs easier.
               </p>
               <a href={AIRTABLE_LINK}>
                 <Button class="hex-btn hex-btn-secondary hex-btn-lg w-full sm:w-fit">
