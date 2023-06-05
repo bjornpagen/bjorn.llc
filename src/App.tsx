@@ -210,7 +210,7 @@ const App: Component = () => {
               <div class="flex flex-col gap-12 p-16">
                 <img src="/assets/quote.png" alt="quote" class="w-28 h-28" />
                 <p class="hex-type-body text-gray-dark">
-                  todo
+                  Bjorn is a hardcore go-getter who takes initiative and gets the job done. His technical skill and creative out-of-the-box thinking make him an asset to your organization. He'll make you money.
                 </p>
                 <img src="/assets/caleb.avif" alt="caleb" class="w-56 h-56 rounded-full" />
                 <div class="flex flex-col gap-8">
@@ -232,7 +232,7 @@ const App: Component = () => {
               <div class="flex flex-col gap-12 p-16">
                 <img src="/assets/quote.png" alt="quote" class="w-28 h-28" />
                 <p class="hex-type-body text-gray-dark">
-                  todo
+                  testimonial pending
                 </p>
                 <img src="/assets/bruno.avif" alt="bruno" class="w-56 h-56 rounded-full" />
                 <div class="flex flex-col gap-8">
@@ -241,52 +241,6 @@ const App: Component = () => {
                   </p>
                   <p class="hex-type-body-medium text-gray">
                     CEO - Magna
-                  </p>
-                </div>
-                <div class="flex flex-row gap-4">
-                  <IconStar />
-                  <IconStar />
-                  <IconStar />
-                  <IconStar />
-                  <IconStar />
-                </div>
-              </div>
-            </div>
-            <div class="flex flex-col lg:flex-row gap-20">
-              <div class="flex flex-col gap-12 p-16">
-                <img src="/assets/quote.png" alt="quote" class="w-28 h-28" />
-                <p class="hex-type-body text-gray-dark">
-                  todo
-                </p>
-                <img src="/assets/bob.jpg" alt="bob" class="w-56 h-56 rounded-full" />
-                <div class="flex flex-col gap-8">
-                  <p class="hex-type-h4 text-black">
-                    todo
-                  </p>
-                  <p class="hex-type-body-medium text-gray">
-                    Client
-                  </p>
-                </div>
-                <div class="flex flex-row gap-4">
-                  <IconStar />
-                  <IconStar />
-                  <IconStar />
-                  <IconStar />
-                  <IconStar />
-                </div>
-              </div>
-              <div class="flex flex-col gap-12 p-16">
-                <img src="/assets/quote.png" alt="quote" class="w-28 h-28" />
-                <p class="hex-type-body text-gray-dark">
-                  todo
-                </p>
-                <img src="/assets/dylan.jpg" alt="dylan" class="w-56 h-56 rounded-full" />
-                <div class="flex flex-col gap-8">
-                  <p class="hex-type-h4 text-black">
-                    todo
-                  </p>
-                  <p class="hex-type-body-medium text-gray">
-                    Client
                   </p>
                 </div>
                 <div class="flex flex-row gap-4">
