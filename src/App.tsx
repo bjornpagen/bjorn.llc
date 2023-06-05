@@ -232,7 +232,7 @@ const App: Component = () => {
               <div class="flex flex-col gap-12 p-16">
                 <img src="/assets/quote.png" alt="quote" class="w-28 h-28" />
                 <p class="hex-type-body text-gray-dark">
-                  testimonial pending
+                  Bjorn was a secret weapon for our sales team. He helped us scale early on and found ways to improve almost every part of the process. He proactively finds ways to add value to the team, and it's hard to remember what things were like before we worked with him.
                 </p>
                 <img src="/assets/bruno.avif" alt="bruno" class="w-56 h-56 rounded-full" />
                 <div class="flex flex-col gap-8">
