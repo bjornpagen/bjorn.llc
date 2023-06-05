@@ -207,7 +207,7 @@ const App: Component = () => {
           </div>
           <div use:slider class="col-span-2">
             <div class="flex flex-col lg:flex-row gap-20">
-              <div class="flex flex-col gap-12 p-16">
+              <div class="flex flex-col basis-1/2 gap-12 p-16">
                 <img src="/assets/quote.png" alt="quote" class="w-28 h-28" />
                 <p class="hex-type-body text-gray-dark">
                   Bjorn is a hardcore go-getter who takes initiative and gets the job done. His technical skill and creative out-of-the-box thinking make him an asset to your organization. He'll make you money.
@@ -229,7 +229,7 @@ const App: Component = () => {
                   <IconStar />
                 </div>
               </div>
-              <div class="flex flex-col gap-12 p-16">
+              <div class="flex flex-col basis-1/2 gap-12 p-16">
                 <img src="/assets/quote.png" alt="quote" class="w-28 h-28" />
                 <p class="hex-type-body text-gray-dark">
                   Bjorn was a secret weapon for our sales team. He helped us scale early on and found ways to improve almost every part of the process. He proactively finds ways to add value to the team, and it's hard to remember what things were like before we worked with him.
