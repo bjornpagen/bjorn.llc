@@ -51,6 +51,86 @@ const App: Component = () => {
           </Button>
         </a>
       </section >
+      <section class="flex flex-col gap-20 py-64 px-16 items-center justify-center lg:py-80">
+        <div class="grid grid-cols-1 max-w-400 lg:grid-cols-3 lg:max-w-1036 gap-20">
+          <div class="flex flex-col gap-20">
+            <div class="h-88 w-88 flex justify-center items-center">
+              <img src='/assets/stars.png' alt='stars' class='w-64 h-64' />
+            </div>
+            <div>
+              <p class="hex-type-eyebrow text-primary">
+                Testimonials
+              </p>
+              <p class="hex-type-h2">
+                <span class="color-black">
+                  What our clients say about us
+                </span>
+                <span class="color-primary">.</span>
+              </p>
+            </div>
+            <div class="flex flex-row gap-12">
+              <Button class="flex justify-center items-center bg-primary rounded-full w-40 h-40" onClick={prev}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M16.2541 19.7589C16.5522 19.4667 16.5793 19.0095 16.3354 18.6873L16.2541 18.595L9.52658 12L16.2541 5.40503C16.5522 5.11283 16.5793 4.65558 16.3354 4.33338L16.2541 4.24106C15.956 3.94887 15.4896 3.9223 15.161 4.16137L15.0668 4.24106L7.7459 11.418C7.44784 11.7102 7.42074 12.1675 7.66461 12.4897L7.7459 12.582L15.0668 19.7589C15.3947 20.0804 15.9262 20.0804 16.2541 19.7589Z" fill="white" />
+                </svg>
+              </Button>
+              <Button class="flex justify-center items-center bg-primary rounded-full w-40 h-40" onClick={next}>
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                  <path d="M7.7459 19.7589C7.44784 19.4667 7.42074 19.0095 7.66461 18.6873L7.7459 18.595L14.4734 12L7.7459 5.40503C7.44784 5.11283 7.42074 4.65558 7.66461 4.33338L7.7459 4.24106C8.04396 3.94887 8.51037 3.9223 8.83904 4.16137L8.93321 4.24106L16.2541 11.418C16.5522 11.7102 16.5793 12.1675 16.3354 12.4897L16.2541 12.582L8.93321 19.7589C8.60534 20.0804 8.07376 20.0804 7.7459 19.7589Z" fill="white" />
+                </svg>
+              </Button>
+            </div>
+          </div>
+          <div use:slider class="col-span-2">
+            <div class="flex flex-col lg:flex-row gap-20">
+              <div class="flex flex-col basis-1/2 gap-12 p-16">
+                <img src="/assets/quote.png" alt="quote" class="w-28 h-28" />
+                <p class="hex-type-body text-gray-dark">
+                  Bjorn is a hardcore go-getter who takes initiative and gets the job done. His technical skill and creative out-of-the-box thinking make him an asset to your organization. He'll make you money.
+                </p>
+                <img src="/assets/caleb.avif" alt="caleb" class="w-56 h-56 rounded-full" />
+                <div class="flex flex-col gap-8">
+                  <p class="hex-type-h4 text-black">
+                    Caleb Jones
+                  </p>
+                  <p class="hex-type-body-medium text-gray">
+                    CEO - DCS International
+                  </p>
+                </div>
+                <div class="flex flex-row gap-4">
+                  <IconStar />
+                  <IconStar />
+                  <IconStar />
+                  <IconStar />
+                  <IconStar />
+                </div>
+              </div>
+              <div class="flex flex-col basis-1/2 gap-12 p-16">
+                <img src="/assets/quote.png" alt="quote" class="w-28 h-28" />
+                <p class="hex-type-body text-gray-dark">
+                  Bjorn was a secret weapon for our sales team. He helped us scale early on and found ways to improve almost every part of the process. He proactively finds ways to add value to the team, and it's hard to remember what things were like before we worked with him.
+                </p>
+                <img src="/assets/bruno.avif" alt="bruno" class="w-56 h-56 rounded-full" />
+                <div class="flex flex-col gap-8">
+                  <p class="hex-type-h4 text-black">
+                    Bruno Faviero
+                  </p>
+                  <p class="hex-type-body-medium text-gray">
+                    CEO - Magna
+                  </p>
+                </div>
+                <div class="flex flex-row gap-4">
+                  <IconStar />
+                  <IconStar />
+                  <IconStar />
+                  <IconStar />
+                  <IconStar />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </section>
       <section class="flex flex-col lg:flex-row gap-20 py-64 px-16 justify-center items-center lg:py-80">
         <div class="flex flex-col max-w-508 text-center lg:text-start">
           <p class='hex-type-eyebrow text-primary'>
@@ -171,86 +251,6 @@ const App: Component = () => {
                   </span>
                 </Button>
               </a>
-            </div>
-          </div>
-        </div>
-      </section >
-      <section class="flex flex-col gap-20 py-64 px-16 items-center justify-center lg:py-80">
-        <div class="grid grid-cols-1 max-w-400 lg:grid-cols-3 lg:max-w-1036 gap-20">
-          <div class="flex flex-col gap-20">
-            <div class="h-88 w-88 flex justify-center items-center">
-              <img src='/assets/stars.png' alt='stars' class='w-64 h-64' />
-            </div>
-            <div>
-              <p class="hex-type-eyebrow text-primary">
-                Testimonials
-              </p>
-              <p class="hex-type-h2">
-                <span class="color-black">
-                  What our clients say about us
-                </span>
-                <span class="color-primary">.</span>
-              </p>
-            </div>
-            <div class="flex flex-row gap-12">
-              <Button class="flex justify-center items-center bg-primary rounded-full w-40 h-40" onClick={prev}>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M16.2541 19.7589C16.5522 19.4667 16.5793 19.0095 16.3354 18.6873L16.2541 18.595L9.52658 12L16.2541 5.40503C16.5522 5.11283 16.5793 4.65558 16.3354 4.33338L16.2541 4.24106C15.956 3.94887 15.4896 3.9223 15.161 4.16137L15.0668 4.24106L7.7459 11.418C7.44784 11.7102 7.42074 12.1675 7.66461 12.4897L7.7459 12.582L15.0668 19.7589C15.3947 20.0804 15.9262 20.0804 16.2541 19.7589Z" fill="white" />
-                </svg>
-              </Button>
-              <Button class="flex justify-center items-center bg-primary rounded-full w-40 h-40" onClick={next}>
-                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
-                  <path d="M7.7459 19.7589C7.44784 19.4667 7.42074 19.0095 7.66461 18.6873L7.7459 18.595L14.4734 12L7.7459 5.40503C7.44784 5.11283 7.42074 4.65558 7.66461 4.33338L7.7459 4.24106C8.04396 3.94887 8.51037 3.9223 8.83904 4.16137L8.93321 4.24106L16.2541 11.418C16.5522 11.7102 16.5793 12.1675 16.3354 12.4897L16.2541 12.582L8.93321 19.7589C8.60534 20.0804 8.07376 20.0804 7.7459 19.7589Z" fill="white" />
-                </svg>
-              </Button>
-            </div>
-          </div>
-          <div use:slider class="col-span-2">
-            <div class="flex flex-col lg:flex-row gap-20">
-              <div class="flex flex-col basis-1/2 gap-12 p-16">
-                <img src="/assets/quote.png" alt="quote" class="w-28 h-28" />
-                <p class="hex-type-body text-gray-dark">
-                  Bjorn is a hardcore go-getter who takes initiative and gets the job done. His technical skill and creative out-of-the-box thinking make him an asset to your organization. He'll make you money.
-                </p>
-                <img src="/assets/caleb.avif" alt="caleb" class="w-56 h-56 rounded-full" />
-                <div class="flex flex-col gap-8">
-                  <p class="hex-type-h4 text-black">
-                    Caleb Jones
-                  </p>
-                  <p class="hex-type-body-medium text-gray">
-                    CEO - DCS International
-                  </p>
-                </div>
-                <div class="flex flex-row gap-4">
-                  <IconStar />
-                  <IconStar />
-                  <IconStar />
-                  <IconStar />
-                  <IconStar />
-                </div>
-              </div>
-              <div class="flex flex-col basis-1/2 gap-12 p-16">
-                <img src="/assets/quote.png" alt="quote" class="w-28 h-28" />
-                <p class="hex-type-body text-gray-dark">
-                  Bjorn was a secret weapon for our sales team. He helped us scale early on and found ways to improve almost every part of the process. He proactively finds ways to add value to the team, and it's hard to remember what things were like before we worked with him.
-                </p>
-                <img src="/assets/bruno.avif" alt="bruno" class="w-56 h-56 rounded-full" />
-                <div class="flex flex-col gap-8">
-                  <p class="hex-type-h4 text-black">
-                    Bruno Faviero
-                  </p>
-                  <p class="hex-type-body-medium text-gray">
-                    CEO - Magna
-                  </p>
-                </div>
-                <div class="flex flex-row gap-4">
-                  <IconStar />
-                  <IconStar />
-                  <IconStar />
-                  <IconStar />
-                  <IconStar />
-                </div>
-              </div>
             </div>
           </div>
         </div>
